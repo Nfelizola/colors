@@ -1,0 +1,121 @@
+html{
+  width:100vw;
+  height:100vh;
+}
+.bloco-mestre {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    min-height:400px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+   }
+.artista{
+  background:repeating-linear-gradient(#d4dbb4, #230606);
+  text-shadow: #d4dbb4;
+  display: block;
+}
+.artista div {
+  position: absolute;
+  top:100px;
+  left:300px;
+  font-weight: 700;
+  font-size: x-large;
+  text-align: center;
+}
+
+
+
+
+.fotocircsombra{
+    border-radius: 600px;
+    box-shadow: 2px 2px 28px rgb(108, 17, 17);
+}
+  .bloco-mestre div {
+    background-color: #f1f1f1;
+    min-width:400px;
+    width: 400px;
+    height:620px;
+    border-radius: 10px;
+    border-color: black;
+    border-style: double;
+    text-align: center;
+    margin:10px;
+    }
+  .negritao{
+    font-weight: 700;
+  }
+  
+  /* Extra small devices (phones, 600px e abaixo disto) */
+@media only screen and (max-width: 600px) {
+    .fundo {background: red;}
+    .contraste{color: white;}
+    .dispositivo {
+      background-image: url("/IMG/pixel5.png");
+      width: 60%;
+      height: 60%;
+      background-size:contain;
+      background-repeat: no-repeat;
+      margin: 10px 20% 10px 20%;
+      }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px para cima) */
+  @media only screen and (min-width: 600px) {
+    .fundo {background: green;}
+    .contraste{color: aliceblue;}
+    .dispositivo {
+      background-image: url("/IMG/tablets.png");
+      width: 60%;
+      height: 60%;
+      background-size: contain;
+      background-repeat: no-repeat;
+      margin: 10px 20% 10px 20%;
+  }
+
+  
+  /* Medium devices (landscape tablets, 768px  para cima) */
+  @media only screen and (min-width: 768px) {
+    .fundo {background: blue;}
+    .contraste{color: aliceblue;}
+    .dispositivo {
+      background-image: url("/IMG/desktop.png");
+      width: 60%;
+      height: 60%;
+      background-size: contain;
+      background-repeat: no-repeat;
+      margin: 10px 20% 10px 20%;}
+  }
+  
+  /* Large devices (laptops/desktops, 992px para cima) */
+  @media only screen and (min-width: 992px) {
+    .fundo {background: orange;
+      }
+    .contraste{color: black;
+    text-align: center;}
+    .dispositivo {
+      background-image: url("/IMG/landscape.png");
+      width: 60%;
+      height: 60%;
+      background-size: contain;
+      background-repeat: no-repeat;
+      margin: 10px 20% 10px 20%;
+      }
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px e para cima irá funcionar para grandes resolucoes) */
+  @media only screen and (min-width: 1200px) {
+    .fundo {background: pink;}
+    .contraste{color: black;}
+    .dispositivo {
+      background-image: url("/IMG/smarttv.png");
+      width: 60%;
+      height: 60%;
+      background-size: contain;
+      background-repeat: no-repeat;
+      margin: 10px 20% 10px 20%;}
+  }
+  }
