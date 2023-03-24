@@ -54,7 +54,7 @@ html{
     .fundo {background: red;}
     .contraste{color: white;}
     .dispositivo {
-      background-image: url("./IMG/pixel5.png");
+      background-image: url("../IMG/pixel5.png");
       width: 60%;
       height: 60%;
       background-size:contain;
@@ -68,7 +68,7 @@ html{
     .fundo {background: green;}
     .contraste{color: aliceblue;}
     .dispositivo {
-      background-image: url("./IMG/tablets.png");
+      background-image: url("../IMG/tablets.png");
       width: 60%;
       height: 60%;
       background-size: contain;
@@ -82,7 +82,7 @@ html{
     .fundo {background: blue;}
     .contraste{color: aliceblue;}
     .dispositivo {
-      background-image: url("./IMG/desktop.png");
+      background-image: url("../IMG/desktop.png");
       width: 60%;
       height: 60%;
       background-size: contain;
@@ -97,7 +97,7 @@ html{
     .contraste{color: black;
     text-align: center;}
     .dispositivo {
-      background-image: url("./IMG/landscape.png");
+      background-image: url("../IMG/landscape.png");
       width: 60%;
       height: 60%;
       background-size: contain;
@@ -111,7 +111,7 @@ html{
     .fundo {background: pink;}
     .contraste{color: black;}
     .dispositivo {
-      background-image: url("./IMG/smarttv.png");
+      background-image: url("../IMG/smarttv.png");
       width: 60%;
       height: 60%;
       background-size: contain;
